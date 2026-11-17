@@ -1,0 +1,5 @@
+# Generated analysis outputs; frozen reference tables live under data/.
+*.csv
+figures/
+ng_layers/
+per_neuron/

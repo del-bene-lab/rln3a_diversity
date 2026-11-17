@@ -1,0 +1,276 @@
+{
+  "source_project": "rel3a_function_and_connectivity",
+  "source_directory": "connectivity/synaptome",
+  "metadata": {
+    "path": "data/neurons.csv",
+    "source": "csv/rel3a_neurons_111126.csv",
+    "source_sha256": "eb92fd2eb7b53c5f51cf4f125ed9dc62aa7b9dfbc09ba2370cafdd25753d2ea2",
+    "rows": 30,
+    "columns": [
+      "type",
+      "functional_id",
+      "left/right",
+      "comment",
+      "reconstruction",
+      "nucleus_id",
+      "nucleus_position",
+      "soma_id",
+      "neurotransmitter classifier",
+      "projection classifier",
+      "neuroglancer_link",
+      "imaging_modality",
+      "date_of_tracing",
+      "tracer names",
+      "# contra branches"
+    ],
+    "sha256": "3b0227a0f69c4b8eecee5a88ac1d4c8e9c2111ce54b7e8fa8a3a2fc4d8f6d449",
+    "cleanup": "Removed entirely empty columns, including two empty duplicate soma_id columns; retained all nonempty field values."
+  },
+  "dataset": {
+    "datastack": "fish1_full",
+    "synapse_table": "synapses_axde",
+    "segmentation_table": "fish1_v250915",
+    "cave_query_timestamp": null,
+    "cave_materialization_version": null,
+    "note": "The original CSV exports do not record the query timestamp or materialization version. The segmentation table comes from the analysis configuration, not a verified export snapshot."
+  },
+  "atlas": {
+    "path": "data/fish1.0_MECE_labels.hdf5",
+    "shape_xyz": [
+      2100,
+      1016,
+      544
+    ],
+    "voxel_size_um": [
+      0.512,
+      0.512,
+      0.48
+    ],
+    "sha256": "dd327f61301ec76d407053617d8b275c2b7ba9a5f346c0dfda764b2b7555095e",
+    "validation": "All compressed chunks and root attributes match the source."
+  },
+  "pag_neurons": 22,
+  "files": [
+    {
+      "path": "data/per_neuron/cell_864691128634696641/cell_864691128634696641_inputs.csv",
+      "rows": 220,
+      "sha256": "6b4fef71bf6668037901ae2e0c4553076540ff51c068921592ab801162f2747d"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128634696641/cell_864691128634696641_outputs.csv",
+      "rows": 131,
+      "sha256": "c017871b8b406f909f7b0d3abb83eed268d055ca6f795658af98912bc25636d9"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128660598097/cell_864691128660598097_inputs.csv",
+      "rows": 156,
+      "sha256": "e131566f83fb20448ae7e6db9c900f8c449dc9a40bc251f90a0fd7f146bb5843"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128660598097/cell_864691128660598097_outputs.csv",
+      "rows": 53,
+      "sha256": "cc56f72d34c1010583b5153731cb0500cf225a148aed2eda62a09f455d69cdc9"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128640250277/cell_864691128640250277_inputs.csv",
+      "rows": 195,
+      "sha256": "361bb4618e9385530a03e10ea0f5d4e14ebcd284a4f464fb9603013276d53534"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128640250277/cell_864691128640250277_outputs.csv",
+      "rows": 47,
+      "sha256": "c3b9fc57943ebc70919b9f163b0ab5224c72e8d536f5590a6045227e4d22366b"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128626205448/cell_864691128626205448_inputs.csv",
+      "rows": 192,
+      "sha256": "1b721a43697d46a1363a3aa19762bbd91380912d5bd23e1de29bf9541668f91d"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128626205448/cell_864691128626205448_outputs.csv",
+      "rows": 131,
+      "sha256": "c35b6d0a5314224c6dea7a417dc6d6ac50e149f68fb7503aa51c6d83aca66e77"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128645296172/cell_864691128645296172_inputs.csv",
+      "rows": 179,
+      "sha256": "22e5bb782235619ebb1dfa3f925709b0189448c15fb3a5d7a86c93dbb7bbaa72"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128645296172/cell_864691128645296172_outputs.csv",
+      "rows": 120,
+      "sha256": "141f150b2d4b7577acd8eada78220b4d916e9d81ff07e4eaee415619ec02bdc9"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128619300398/cell_864691128619300398_inputs.csv",
+      "rows": 174,
+      "sha256": "222e3c158e022497fe54ea7e2024434bf8dd61f6645469f627f26f3fd75d3ac2"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128619300398/cell_864691128619300398_outputs.csv",
+      "rows": 57,
+      "sha256": "12717430d7a207793514224ae0bccaba59d21eb2d22387d692b075a6220d9bb2"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128634518937/cell_864691128634518937_inputs.csv",
+      "rows": 147,
+      "sha256": "24cac005c0541dd0b694e137918eb9cadb175007495583d926f38c69b68d286a"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128634518937/cell_864691128634518937_outputs.csv",
+      "rows": 146,
+      "sha256": "6d693c2f225b732a58e15bd1bf35087c173328bdf17b3b15349410e7ac3beb7a"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616172925/cell_864691128616172925_inputs.csv",
+      "rows": 183,
+      "sha256": "c501a47c44a313af335b3e5f9d6591e87859268dee85971635a9f0a2f270725e"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616172925/cell_864691128616172925_outputs.csv",
+      "rows": 78,
+      "sha256": "b27662bd7a679903f515afd412b3e6ec68cf18a121c8b0d513c293e6ce222c1f"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616475463/cell_864691128616475463_inputs.csv",
+      "rows": 233,
+      "sha256": "5279ae9551c609a0af95aff71847370e5b9dae20d9821d6694981a143891640a"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616475463/cell_864691128616475463_outputs.csv",
+      "rows": 129,
+      "sha256": "01e06e363e4634256502653ffa4cb10c23baed06398afe12796b175bcfd4b6f1"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128624570700/cell_864691128624570700_inputs.csv",
+      "rows": 169,
+      "sha256": "7d8b9fc5da476a9f7fe70cb05d5ec664645880bce3c4f2513218815b53fb4fe3"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128624570700/cell_864691128624570700_outputs.csv",
+      "rows": 95,
+      "sha256": "d394667a086c6cb2cbafefa33a5ac22b582e95b485176b71fda4f4e20ee16f39"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128608989365/cell_864691128608989365_inputs.csv",
+      "rows": 198,
+      "sha256": "a1c6d5efedca1c15f1f8e2c03f105394cd69caf6de40d419cc86581bfe3b445c"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128608989365/cell_864691128608989365_outputs.csv",
+      "rows": 162,
+      "sha256": "612b2580c9d5d29959f7e3fc989e96331df02d5e36f599a334c53bba38dbd5aa"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128624578892/cell_864691128624578892_inputs.csv",
+      "rows": 203,
+      "sha256": "4fb48e4f7033bded4f771953c93e3fab473a38bbe1740a96f0eef29e6cfc4277"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128624578892/cell_864691128624578892_outputs.csv",
+      "rows": 142,
+      "sha256": "e1a87be817d6f961510ea49517c476dd3e20a50e6ea14013ccb329c47782891c"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616664075/cell_864691128616664075_inputs.csv",
+      "rows": 259,
+      "sha256": "02157fad13d24d5e3df8ae005ca6ab60481f5a1fa83fd143db593f27cc5ae554"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616664075/cell_864691128616664075_outputs.csv",
+      "rows": 119,
+      "sha256": "a6a073d4631c95767d3497ceb64e85d5363c9625c47f8080471075a304a23a02"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128660601681/cell_864691128660601681_inputs.csv",
+      "rows": 188,
+      "sha256": "0327391b5f56ae51b005fb2d67ff1ef5cb7bfb6ac79244231abe2b04bdf02cb5"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128660601681/cell_864691128660601681_outputs.csv",
+      "rows": 71,
+      "sha256": "becd4bb0615d3c16148fe49ea5ea0345f462b848939773f8c02515e1480c9d12"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128622263777/cell_864691128622263777_inputs.csv",
+      "rows": 118,
+      "sha256": "594e34d33c14d0dc30938347e443257444cd5c33e94ac08bb4acdbab477ef448"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128622263777/cell_864691128622263777_outputs.csv",
+      "rows": 15,
+      "sha256": "b9b0cd7aea6f1874d10f430a6db30e3bc0d0a8421b95bb5664531eaf383117fc"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128623250317/cell_864691128623250317_inputs.csv",
+      "rows": 136,
+      "sha256": "aac2d2136e577846d903852be2f24282e6dcb150151210dfefa959ae423bfa74"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128623250317/cell_864691128623250317_outputs.csv",
+      "rows": 30,
+      "sha256": "29c572dc9ad31ebcdf0037e418c1afceb43dc5d21048624425fbaa6986bfaf56"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128637905405/cell_864691128637905405_inputs.csv",
+      "rows": 163,
+      "sha256": "b93dd1c9fc0200339d6d6fe3db552bdc52883eae595c53b6b4301bf08324f037"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128637905405/cell_864691128637905405_outputs.csv",
+      "rows": 15,
+      "sha256": "178892c80b08215a21ab8cffb2f1b7c891e07f7819f71dff31d93956193bc6f9"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128628899878/cell_864691128628899878_inputs.csv",
+      "rows": 99,
+      "sha256": "4a5acc23d5ff77b278d2b428ae2f720b144de06fd5f2da1368fc309973b725f9"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128628899878/cell_864691128628899878_outputs.csv",
+      "rows": 14,
+      "sha256": "8e2532296aa1c66217a6e51fce96ed8056a01ca03e6910b1fb6b8942ec28de87"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128611536328/cell_864691128611536328_inputs.csv",
+      "rows": 151,
+      "sha256": "4c023e1ef5e5a180ba0b8436b4c2b2743e1e38144b7d2195721f0d5bdf892b2e"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128611536328/cell_864691128611536328_outputs.csv",
+      "rows": 63,
+      "sha256": "6484c90f3ee38e9ed0f47c018a853de10fb39286155dfdb7a000ba184acde4f0"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616229403/cell_864691128616229403_inputs.csv",
+      "rows": 174,
+      "sha256": "0965ae7771e2dff13b2e886c6d27d9a36baf9c12c2e399226c33b081ee256fcd"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128616229403/cell_864691128616229403_outputs.csv",
+      "rows": 87,
+      "sha256": "80b94f838a4235b0b301ed64d2c9f54eb251763aa8c3c307249be7621171e02e"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128639394929/cell_864691128639394929_inputs.csv",
+      "rows": 247,
+      "sha256": "d33417cae4b7d96bcf07b1ad666f48d3fcee34175ec7c6bfe8758b8c4385bbc8"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128639394929/cell_864691128639394929_outputs.csv",
+      "rows": 60,
+      "sha256": "7cc9dc8654b9927d3d9f877e22e26f76c2df9ccc53e370ffdcef31f87391e217"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128614771675/cell_864691128614771675_inputs.csv",
+      "rows": 195,
+      "sha256": "bce31a0a4554e0ab51cfb94fc199aab6c6e462ced3859b273b57882921af79d3"
+    },
+    {
+      "path": "data/per_neuron/cell_864691128614771675/cell_864691128614771675_outputs.csv",
+      "rows": 223,
+      "sha256": "7215cd9f8b4f21dd9ff0523cd5baad940cd96b8ef9f499f5d4a0224b81b18297"
+    }
+  ],
+  "reference_summaries": "Unmodified summary CSVs copied from cells_synaptome_info for regression comparison."
+}
