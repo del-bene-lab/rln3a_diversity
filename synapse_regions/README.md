@@ -33,8 +33,6 @@ synapse_regions/
 The metadata contain 30 neurons: 22 PAG neurons used in the synapse analysis
 and eight NI neurons retained as metadata context. The 44 bundled synapse CSVs
 cover the 22 PAG neurons, with 3,979 input and 1,988 output synapse records.
-Earlier drafts, inspection notebooks, browser utilities, bytecode, and redundant
-per-neuron figures and Neuroglancer exports are not included as input data.
 
 ## Installation
 
@@ -145,13 +143,3 @@ annotations containing `complete`, whereas the global analysis also accepts
 See [data/README.md](data/README.md) for the data schema, provenance, and snapshot
 information. No credentials are stored in this analysis directory.
 
-## Verification
-
-The complete offline analysis was run using the existing `relaxin` installation
-with the package versions specified in `environment.yml`. A new Conda
-environment was not created during this verification.
-
-All four reproduced summary tables matched their source references after
-alignment by neuron ID and column name (numeric tolerance `1e-12`). Both the
-default and complete/sufficient metadata selections matched the original
-implementation. All frozen input checksums remained unchanged after execution.
